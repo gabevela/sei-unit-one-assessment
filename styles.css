@@ -2,3 +2,40 @@
     box-sizing: border-box;
 }
 
+.button{
+    box-shadow: none;
+    text-shadow: none;
+    background-color: rgb(185, 183, 183);
+    color: white;
+    border: rgb(185, 183, 183);
+    border-radius: 3px;
+
+}
+
+.input-class{
+    border:  1px solid gray;
+    color: black;
+    border-radius: 3px;
+    box-shadow: none;
+    text-shadow: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 40px 30px 30px 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+#display{
+    text-justify: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+#input{
+    max-width: 50px;
+}
